@@ -1,0 +1,163 @@
+@media screen and (max-width: 900px) {
+    .elements {
+        margin: 2% 10% 2% 10%;
+        padding: 0px;
+        width: 100%;
+        float: left;
+        background-size: contain; }
+       
+    h1 {
+        font-size: 5vw;
+    }
+
+
+    h3 {
+        font-size: 3vw;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .elements {
+        margin: 2%;
+        padding: 0px;
+        width: 20%;
+        float: left;
+        background-size: contain; }
+    #featured {
+        font-size: 2vw;
+        
+    }
+    
+    h1 {
+        font-size: 4vw;
+    }
+
+
+    h3 {
+        font-size: 3vw;
+    }
+    
+}
+
+
+img, embed, object, video {
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+div {
+    position: relative;
+    overflow: hidden;
+}
+
+
+body {
+    
+    margin: 0px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.upperSectionContainer {
+    
+    
+    overflow-y: hidden;
+    margin-top: 5vh;
+    min-height: min-content;
+}
+
+
+.title {
+    
+    font-family: 'Montserrat', sans-serif;
+    width: max-content;
+    width: -moz-max-content;
+    margin: 10% 5% 0% auto;
+}
+
+
+.separation {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.logo {
+    
+    background-size: cover;
+    width: 12vw;
+    margin: 2.1% auto 5% 2%;
+    position: absolute;
+}
+
+
+hr {
+    border-top: 1px solid red;
+    width: 60%;
+    margin-top: 5%;
+}
+
+
+.coverimage {
+    margin-top: 5%;
+}
+
+
+#featured {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-bottom: solid red;
+    width: max-content;
+    width: -moz-max-content;  
+    font-family: 'Vidaloka', sans-serif;
+}
+
+
+.projectsContainer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    flex-direction: row;
+ }
+
+
+.projectInfo {
+
+}
+
+
+.hover:hover {
+    color: cornflowerblue;
+}
+
+
+.projectInfoName {
+    width: max-content;
+    width: -moz-max-content;
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+.projectInfoUrl {
+    width: max-content;
+    width: -moz-max-content;
+    font-family: 'Montserrat', sans-serif;
+}
